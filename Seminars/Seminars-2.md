@@ -1,5 +1,9 @@
 #### Homework
 ##### Read up on the Boston Matrix
+Boston Matrix is a chart, helps the company to analysis 
+
+
+
 
 ##### How do you connect your requirements to your architecture?
 

@@ -26,11 +26,17 @@
 ##### read and summarise:
 
 ##### ----"Towards a reference framework for software product management":
-
-
-
-
-
+           In this paper, The author presents a reference framework for software product management. This reference framwork involves many aspects, such like portfolio management, product roadmapping, release planning and requirements management. And the stakeholders and their relations has been identified in this paper.
+           From this paper, we know the stakeholders can be divided into internal stakeholders and external stakeholders. The internal stakeholders including company board, the consultants of the services department, support stands and sales and marketing staffs. The external stakeholders including potential customers, competitors and analysts.
+           Portfolio management: portfolio management include four main processes, they are market trend identification, product line identification, product lifecycle management and partnering and contracting, we through market trend identification to find our partners, then we will make a decision to determine the product lifecycle. We also need to set up a clear product line management in this area.
+           Product roadmapping: Roadmap is a long-term planning, also known as road planning. A roadmap is a structured representation of objects over a period of time to display a development plan. Road maps are used in business for strategic planning and communications. The roadmapping is such like product line management, the roadmapping has different use in different industries, the main use in software industry is planning purposes. 
+           Requirements management: Requirements management is very important in product software companies[1]. The requirements management process including requirements estimating, identifying, changing and organizing the requirements from different stakeholders. Analyzing requirements is the most important thing when we doing requirements management. Because we need to ensure that we truly understand these requirements, if we misunderstand these requirements, the whole product will be failed.
+           Release planning: The release planning is start with the product requirements prioritization. At the beginning of the project, we have already set up a series of requirements for the first release, and some unimportant requirements will be  published on next release. The release planning probable using integer linear programming to analyze the stakeholders' feedback[2].  
+           The main contribution of this article: 1.This paper proposes a visual reference framework for software product management. 2. This paper provided an overview of software product management. 3. This article describes the importance of software product management.
+           The shortcoming of this article: 1. The description of the visual reference framework for software product management is not detailed enough, so we do not understand how to use this framwork in the real life. 2.There is no real case to prove whether it is really effective.          
+           reference:
+           [1] P. Carlshamre and B. Regnell, "Requirements Lifecycle Management and Release Planning in Market-Driven Requirements Engineering Processes", DEXA’00, 2000, p. 961.
+           [2] M. van den Akker, S. Brinkkemper, G. van Diepen, and J. Versendaal, “Flexible Release Planning Using Integer Linear Programming”, REFSQ'05, 2005, Porto, Portugal, Essener Informatik Beitrage, Band 10.
 ##### ----"Market-Driven Requirements Engineering for Software Products":
 
 

@@ -1,1 +1,55 @@
 
+## Seminar 4 
+
+### Article: “What Happened to Our Features? Visualization and Understanding of Scope Change Dynamics in a Large-Scale Industrial Setting”
+
+With the development of the software industry, now adays each software product or system contains thousands of requests and more. Because of the time and resource are limited, so we need to decide which requirements need to be implement at first. Decision on which features to implement are affected by many factors. The process of selection called scoping, it is an important process in software development phase. In this paper, the author through an industrial case study to propose a Feature Survival Chart(FSC). This chart can help us directly see which decisions have been made when and how large impact on the scope they had.
+At first, the author choose a case company as our case study objective. There are more than five thousands staffs in this company. Then the author use FSC in this company to track the corresponding scope. 
+The author focuses on three aspects when analyzing the project. They are:
+1. The length of the project.
+2. The number of features.
+3. The main changes in the scope of the project. 
+Then, the author presents what is FSC, FSC is a chart that include X-axis and Y-axis. The X-axis shows the scope changes over time which is illustrated, Y-axis means the different features. And there are green color and red color, the green color represent in scope, and the red color represent out of scope. With the help of this chart, we can define the measurements which is used to indicate the quality of scoping.
+At last, the author use quantitative characterization and qualitative rationale for scoping decisions to improve the visualization technique. The visualization technique can provide feedback about the ongoing scoping and visualization of past project scoping activities.
+The main contribution of this article:
+1. The FSC is a visible chart, we can directly see what is it.
+2. The FSC is not very difficult for us, we can easy to learn and use it.
+The shortcoming of this article: 
+1. Only select one case company as our survey objective. It is not enough.
+2. Lack of real-time feedback, we need real-time feedback to improve the construction techniques and method in ongoing projects.[1]
+
+
+-------
+
+
+### Article: “Obsolete Software Requirements”
+    
+As we know that, with the fast change of business environment, the requirements change rapidly. In order to response the rapidly changing requirements, the company need to identify the obsolete software requirements as soon as possible. So, in this paper, the author chose an empirical investigation to deep analysis the obsolete software requirements. This paper has present the research result from an empirical study based on 219 respondents. The result will be shown:
+1. OSR as a software requirement which is no longer needed for now and future.
+2. Many respondents consider that OSR will influence intensive software development companies.
+3. The phenomenon of OSR is serious.
+4. Identification of OSR is usually a manual activity.
+5. OSR seems to make more influence to the large scale requirements and very large scale requirements project.
+6. A lot of respondents are willing to keep OSR instead of deleting them.
+7. The latency is not the main factor for the problem of OSR.
+8. When it talks about where in the requirements should OSRs be handled, most of respondents reported that there is no tools for identification and handling of OSR.
+The main contribution of this article:
+1. I read some articles and books about OSR[2], this paper is the first time thinking about OSR. This article opens the door for OSR research. 
+2. From this paper, I get a new area learning of software requirements engineering. I know the importance of identify the obsolete software requirements.
+The shortcoming of this article: 
+1. As we know that different people working in different environments may have different opinions about OSRs, so the personal research result could be different. If add a system research, it will be better for this article.
+2. Everything has its good side and bad side. From this paper, I do not know what is the bad side of OSR to the project. 
+
+
+-------
+
+
+### Extra Reference:
+
+[1] Karlsson L, Regnell B, Thelin T. Case studies in process improvement through retrospective analysis of release planning decisions[J]. International Journal of Software Engineering and Knowledge Engineering, 2006, 16(06): 885-915.
+
+[2] Zahda S. Obsolete Software Requirements[J]. 2011.
+
+
+
+

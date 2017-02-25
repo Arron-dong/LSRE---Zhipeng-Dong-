@@ -1,1 +1,167 @@
+### Seminar 2
 
+#### Q1 Read up on GAP/CVA/IVA Analysis.
+
+##### GAP Analysis
+
+GAP analysis is a way to identify and measure positive and negative gaps between current products and customer expected perceives.[1] The positive gaps means the products we developed have already exceeded our customer’s expectations. The negative gaps means the products we developed can not satisfied our customer’s requirements. GAP analysis is also an important way to assess the business requirements performance, and help the project teams to improve their current product. 
+
+##### CVA Analysis
+
+CVA (customer value analysis) is also a technique/method for measuring variables, it is very similar to GAP Analysis. But increased the analysis of competitors products, to find competitors products’ shortcomings, in order to enhance their own products. In CVA Analysis, a very important thing is to timely management customers. By analyzing customer history, it will identified the most valuable potential users. It divided into five phases. They are: 
+1. Identify the customers’ requirements.
+2. Positive and negative effect on the requirements.
+3. Competitive strength.
+4. How to improve customers’ satisfaction.
+5. Communication with customers.
+
+##### IVA Analysis
+
+IVA (internal value analysis) is a process to identifying and evaluating the organization’s specific characteristics. The specific characteristics including human resource, capabilities and so on. 
+In summary, based on analyzing GAP Analysis, CVA Analysis and IVA Analysis, we found the IVA Analysis is try to finding what do we have already, the CVA Analysis is try to finding what are the customer want to get, and the IVA Analysis is try to finding the difference between them.
+
+
+-------
+
+
+##### Q2 What tools are available for Continuous Integration?
+
+There are a lot of tools are available for continuous integration, for example, LuntBuild, QuickBuild, Buildbot, Travis CI and so on, they are all open source tools for continuous integration. Because I have never come into contact with these tools, so I have no experience about them. I use the internet to see other people's experience, and download one of them for trying. The tool I selected is QuickBuild. It is a good tools for continuous integration, the main processes in QuickBuild divided into three parts, they are checkout, build and publish artifacts. QuickBuild is based on configuration and can simply copy configuration. It is very convenient to use.
+
+
+-------
+
+
+##### Q3： What is technical product management?
+
+Technical product management is a way to manage product which requires the managers have technical background. It is means the technical product managers need to understand the technology at a deep level.  Technical product management is an approach that let the product manager have more knowledge about the real development work. Because the manager need to manage the process and lead the project team, so the manager work always includes three different activities:
+1. Focus on the business side of role.
+2. Technical product manager use the technical skills to improve the planing.
+3. Communication between manager roles and development roles.
+
+
+-------
+
+
+##### Q4：What is roadmapping? How can you do it large scale?
+
+Roadvmapping is a technique for creating the product strategies foe a long-term development. The aim of roadvmapping is to ensure they can meet their strategic objectives. The roadvmapping combine early information, in order to deliver the right products at a right time. There are 3 advantages of roadvmapping:
+1. Provide a framework to help the future development work.
+2. Provide a framework to help plan the development.
+3. provide a relatively method to deal with different things during the development
+In large scale, there are lots of different uncertain things, so we need to detail each thing and make a detailed roadmap. The product roadvmapping is an approach to manage high-level views to requirements engineering, and a detail roadmap also need to consider market, customer value and other factors[2].
+
+
+-------
+
+
+### Article "Gorschek & Wohlin “Requirements Abstraction Model"
+
+With the market-driven product development becoming more and more common in software industry, the author put forward a model with abstraction levels which could response software industry requirements. As we know that, the sources of requirements are very different, so it is hard to get the requirements since they have different forms. In order to solve this problem, the author put forward a RAM model. This model is to provide a requirement engineering model to the product manager, in order to help their work. From study this paper, we found the RAM model has several benefits:
+1. In RAM, Compare all requirements to product strategies, it will be early selection for requirements.
+2. Every requirement will be divided into several different level, it could initiate a development effort.
+3. In the same level, the requirements can be compared, it is very important, when we priority the requirements.
+4. RAM could help staff earlier understand the requirements, and the decision about requirements will be better made.
+How to action the RAM? We can divide the process into following action process:
+The first step is specify, in this step, it is include four parts, they are description the requirements, the benefits of this requirement, describe the potential risks and the title of requirements.
+The second step is place, The step is analyzing the level of a requirement and place it on the corresponding level. 
+The third step is abstraction, in this step the requirements will subsequent in different abstraction level and breakdown them to function level.
+The main contribution of this article:
+1. The RAM is very useful for solving the direct requirements in industry.
+2. When we using RAM, we can earlier select the incoming requirements, so that, we can save money and time.
+The shortcoming of this article: 
+1. I think RAM is very complex, it is not a simple model, it is difficult to using in practice.
+2. I think the abstraction levels of different requirements are little bit hard to identify in practice.
+
+
+-------
+
+
+### Article "Requirements Engineering. In search of dependent variables"
+
+Since the software development teams modified their requirements engineering process as an independent variable, this always based on the product quality, and using the quality of the SRS as the dependent variable is flawed. In this paper, the author mainly present a framework of dependent variables, this framework will serves as a full range to access the requirement engineering quality and make both positive and negative influence to the success of product. There are five different levels of this framework:
+1. The requirements phase. In this phase, the dependent variables are relate to requirements cost and time, so we will pay more attention to the requirement cost and time also the quality of requirement.
+2. The project. Project related to lots of factor, such like project time, project budget and so on. And the project estimates of requirements are always changed. So, we need to consider the project time, budget and estimate.
+3. The product. In the product, the dependent variables are relate to requirements selection and degree of impact, so we need to focus on the selection of requirements and also the degree of impact.
+4. The company. In the company level, the dependent variables are relate to portfolio management, Strategic alignment and degree of impact. So, we need to consider the portfolio management, Strategic alignment and also degree of impact.
+5. The society. In the society level, the dependent variables relate to the influence of society, the influence include positive influence and negative influence.
+As we know that, the requirements engineering is a complex work, and the requirements engineering are also involve the quality level, so we can use these five different levels of the new framework to solve and analysis the problems.
+The main contribution of this article:
+1. The author put forward a new framework, it show us that every incoming requirements, we need to judge and analyze them based on their relationship among other levels.
+2. The conclusion of this paper is good. It is very important and helpful, we known that a higher level of taxonomy, We should realize that the effects are multidisciplinary and multi-perspective.
+The shortcoming of this article:
+1. In the project level of the new framework, the author mentioned that the poor estimation techniques should be a cause, but we do not know what is a good or bad technique. 
+
+
+-------
+
+
+### Article "Quality Requirements in Industrial Practice – an extended interview study at eleven companies"
+
+Since the software requirements engineering become more and more important, we know that a good software product need to satisfied both functional requirements and non-functional requirements. The non-functional requirements mainly refers to quality requirements. The quality of a product is very important, but in fact, many companies did not consider the quality of product. The author presents an empirical study to research on the 22 staffs from 11 different companies about the quality requirements on Sweden, in order to research how these companies deal with the quality. The main methodology that the author used is interview, from the author’s conclusion, we can find some useful information:
+1. For B2C, usability is the most important. And for B2B, safety is the most important.
+2. For B2B company, the REQUIRES is the most important interdependency type. For B2C company, the CVALUE is the most important interdependency type.
+3. There is no big distinction between functional requirements and quality requirements during cost estimation.
+4. The quality requirements has different priority in some phase during the whole project.
+The main contribution of this article:
+1. From this article, I known that not all quality requirements are equally important for different types of companies.
+2. The authors find the interdependent results that help us understand what type of interdependence is considered to be the most important instruction given to practitioners to begin to identify.
+The shortcoming of this article:
+1. The result of this research will be limited in different situation. Because the companies we selected are belong to different domain.
+2. Another shortcoming of this article is too little considering quality requirements in project planning. 
+
+
+-------
+
+
+### Article "A cost-value approach for prioritizing requirements"
+
+The goals of developing a software project is to satisfied the stakeholders’ requirements. For each software product, it is divide into functional requirements and non-functional requirements. We need to satisfy all the requirements to develop a nice product, but it is difficult to satisfy all the requirements. So, in this paper, the author mainly introduces a cost-value approach for prioritizing requirements. The cost-value approach could help accurately and effectively manage the system requirements. 
+There are several steps of the author’s new approach to prioritize requirements:
+1. The requirement engineer review the completeness of all the candidate requirements, in order to make sure they are described well and started in a right way.
+2. To get the value of the candidate requirements by applying AHP’s pairwise comparison method.
+3. Estimate the cost of each implementing candidate requirements.
+4. Build a cost-value diagram through calculating the relative value and implementation cost.
+5. Stakeholder use cost-value diagram to analyze all the requirements and discuss them. Also can build the release planning based on these diagram.
+The author use two case to show the effect of this method, through these cases, we can maximize satisfaction of the stakeholder. 
+The main contribution of this article:
+1. The new approach which the author points out can provide a mathematical basis for software requirement engineering.
+2. The new approach which the author points out can reduce the difficult of communication between customers and managers.
+3. The new approach is useful and easy to realize.
+The shortcoming of this article:
+1. The new approach did not consider the dependency of the requirements. I think this is not very good for the new approach using.
+2. The cost-value is what we need to balance when we do the software requirements engineering, so the new approach need to be consider more comprehensive, but I think the new approach did not considered comprehensive enough.
+
+
+-------
+
+
+### Article "A method for early requirements triage and selection utilizing product strategies"
+
+With the development of software development, the market-driven development is becoming more and more gain attention. In this paper, the author presents a method for early requirements triage and selection utilizing product strategies (MERTS). There are two main goals of this method.
+1. MERTS can ensure the importance of decision making. 
+2. MERTS helps managers to categorize requirements.
+And the MERTS can be divide into three parts:
+1. Early requirements triage. First, determine our target requirements. Then, we need to assign weights for different requirements. Finally, compare them.
+2. Requirements selection for release. First, determine the product technology roadmap, then estimate the resource to ensure the feasibility of requirements.
+3. Strategy rationale. Document the reason for each future strategy.
+In order to exploring the effect of MERTS, the author use two cases to research it, and come up with conclusion, the use of MERTS requires time and resource, and it is good to help managers to build strategy.
+The main contribution of this article:
+1. The MERTS is suitable for many different companies, because the author did not only use one size fit all philosophy when they creating this method.
+2. The step of answer where to go, how to go, what need to do, are quite good.
+The shortcoming of this article:
+1. From this paper, we known that, if we use MERTS, we need cost money, but we do not know the relationship between the benefits of MERTS and the costs of MERTS.
+2. The author does not explain the effect of MERTS, we can not determine what it is like.
+
+-------
+
+
+### Reference
+
+[1] Gorschek T. Requirements engineering supporting technical product management[J]. 2006.
+
+[2] Suomalainen T, Salo O, Abrahamsson P, et al. Software product roadmapping in a volatile business environment[J]. Journal of Systems and Software, 2011, 84(6): 958-975.
+
+[3] Mahmood F, Rasheed W. Quality Requirement Abstraction Model (QRAM)[J]. 2014.
+
+[4] Tony Gorschek,"Requirements Engineering Supporting Technical Product Management", 2006

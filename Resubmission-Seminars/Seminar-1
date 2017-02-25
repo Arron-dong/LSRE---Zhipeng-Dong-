@@ -1,1 +1,139 @@
+# Seminar 1
+
+## Homework 1.23 Date 11.3-11.10
+
+
+-------
+
+
+#### Q1:What is large scale requirements engineering?
+
+With the growth of complexity and size of software intense systems, the size and complexity of requirements become large and complex.[1] The increased role of software come with the increased number of requirements. The size of requirements is more than 1000 requirements, this situation is called large scale requirements engineering.
+
+#### Q2:What are the challenges in large scale requirements engineering?
+
+1. A large number of requirements need to be deal with.
+2. Time pressure to complete the entire requirements.
+3. Lack of skill, techniques and domain knowledge.
+4. Customers can not accurately express their requirements.
+5. requirements changed frequently.
+6. Lack of effective requirements.
+7. lack of effective requirements architectures. 
+
+#### Q3:What is the order of magnitude of the number of requirements we are discussing?
+
+One thousand or more than one thousand.
+
+#### Q4: Read up on and summarise [Strategic] Release Planning
+
+Release planning is a planning process. It is an evolving log comes up functions and features. There are many advantages of release planning:
+* 1. RP can prioritize the feature.
+* 2. RP can satisfy the stakeholders who are the most important.
+* 3. RP can provide a maximum business value.
+* 4. RP can lead the team to a common target.
+
+
+-------
+
+
+#### Article "The Art and Science of Software Release Planning"
+
+This paper presents two approaches to RP. They are the art of RP approach and the science of RP approach. In this paper, the author wants to creating a synergy between the two, integrating human and computational intelligence to define optimal RP feature assignments. From this paper, we know that the release planning is used to select the features and functions in several releases, and it is also need to satisfied the factor of technique, budget and risk. A good release planning need to provide a best business value. So we found it is difficult to make a good release plan. The difficulties of creating a RP:
+1. Understanding planning goals and stakeholders is difficult.
+2. You can not publish multiple versions of project plans at the same time.
+3. Because of the release plan is a constantly updated process, so it is difficult to management.
+Because these two approaches all have shortcomings. So the author come out with a new way that combine two ways, and this new way is a hybrid approach based on integer linear programming. There are three phases of this solution, they are modeling, exploration and consolidation. The modeling including three part, the first part is planning objectives and constraints. The second part is offer the stakeholders and voting. The third part is estimate the current resources. The phase 2 is exploration, it is generate the solution plan. The phase 3 is consolidation, in this phase the manager decide the solution based on his experience and simulate some problems in the real development to think about the solution.
+The main contribution of this article:
+1. The author points out the dependencies between features, it is very important.
+2. The author points out a new approach combine the art way and science way, the new approach can be used to make the release planning comprehensively.
+3. The author points out a degree to stakeholders, it is very important for us, because we can judge the importance of information from stakeholders.
+4. The new approach with the modeling-exploation-consolidation step is good.
+The shortcoming of this article: 
+1. In this paper, the author did not show the limitation of the new approach, I think no method is perfect, so we need to know the limitation of this new approach.
+2. lack of large number of release influence analyze. As we know that a large number of release will cost lots of money and time, so I think it will influence this new approach, but the author did not mention it.
+
+
+-------
+
+
+#### Article "A Case Study Evaluation of the Guideline-Supported QUPER Model for Elicitation of Quality Requirements" 
+
+Most of approach and method did not consider about the quality requirements when they used to make RP. From this paper, we know that the QUPER model consider the quality requirements. In this paper, the author through a case study to evaluate QUPER model for elicitation of quality requirements. From this paper, we known the QUPER model is used to face the challenges about the software development technology, the aim of QUPER model is to support high-level decision-making in RP of quality requirements and help software companies get more market competitiveness. 
+From this paper, we known that the QUPER model can be divided into seven steps:
+* Step1: Identify QR, it refers to the features, market, competitors and hardware platform.
+* Step2: Define the scale and unit for QR, it means that a scale and a unit can be used to judge the quality of QR.
+* Step3: Identify reference levels. It is based on actual products QR’s estimation, including single figure, interval estimates and distribution estimates.
+* Step4: Elicit quality breakpoints. This step is divided into three phase, the first phase is to identify the utility breakpoint, the second phase is to identify the saturation breakpoint, the last phase is getting a differentiation breakpoint between utility and saturation breakpoint.
+* Step5: Estimate cost barriers. It refer to estimate the budget for each QR, the author think two CB are better, one is mainly related to software changes and another is related to hardware.	
+* Step6: Set candidate requirements. We can through setting up two targets to specify the interval of an actual QR.
+* Step7: Identify cost dependencies. We can use some existing dependency tools to identify dependencies. Because it is always have dependencies if there are more than two QR effects.
+Then, the author through using two methodology(interviews and questionnaires) to finished his case study. And the conclusion from this case study is that QUPER model is feasible and scalability in the company to improve the measurement of QR and also improve the company’s market competitiveness.
+The main contribution of this article:
+1. The QUPER model consider the quality requirements which is good to improve the quality of software product.
+2. The eliciting quality breakpoints is very important.
+3. This paper help us to find a suitable breakpoint to make the quality better.
+4. The QUPER model in some steps are similar with functional requirements management, we can easy to learn it.
+The shortcoming of this article: 
+1. Seven common steps are not suitable for every situation, so lack of special situation analysis.
+2. From this paper, we know that utility breakpoint, differentiation breakpoint and saturation breakpoint are three important breakpoint, but we do not know how to balance them. 
+
+
+-------
+
+
+#### Article"Introducing support for release planning of quality requirements –an industrial evaluation of the QUPER model"
+
+Because of the market-driven product development is becoming more common in software development company, in order to improve the company’s competitiveness, the company should pay more attention to the quality requirements of the product. In this paper, the author introduce the QUPER model was developed in three steps, the first step is problem definition, the second step is model definition, the third step is model validation. For the first step - problem definition, is focus on cost-benefit model of quality requirements. For the second step - model definition, including three different views, they are benefit view, cost view and roadmap view. For the third step - model validation, it is an evaluation of the model.
+This QUPER model is aim at supporting prioritization and road-mapping of QR at early ages of release planning. For different cases, the steps can be changed, for example, the following steps of using the QUPER at Sony Ericsson case: 
+Step 1: Define quality aspects.
+Step 2: Estimate the current quality of our product and make a competition.
+Step 3: Estimate the breakpoint for each quality aspects.
+Step 4: Discussion different actually goals.
+Authors come out with a solution through an interview-workshop-interview step. 
+The author found the QUPER model is easy to use and learn, it is not very complex, and good for discussing between different team members. When the company make high level decision of quality requirements in the release planning, the QUPER model will improve communication among employees. And the main challenge of the QUPER model is that it is difficult to identify and specify the values of the split and saturation breakpoints.
+The main contribution of this article:
+1. The author want to evaluate the QUPER model in industrial area, the method he used is quite nice.
+2. The author show a real case of QUPER model, it is very important, because we can see the practice efficiency of QUPER model.
+3. The author use one interview before workshop, and others after the workshop, it is quite nice, because the staff can experience the process of QUPER in a real project.
+The shortcoming of this article: 
+1. This article does not analyze employee feedback, we can not know what feedback is useful and what feedback is useless.
+2. Only discuss QUPER model in the Sony Ericsson case, I think it is not enough.
+
+
+-------
+
+
+#### Article "A Market-Driven Requirements Engineering Process: Results from an Industrial Process Improvement Programme"
+
+In this paper, the author mainly describe a specific industrial RE process called REPEAT(Requirements Engineering Process at Telelogic). It is a requirements engineering  process which can be used to manage the requirements through a whole release cycle.
+REPEAT is focus on selecting the requirements release planning. There are six actors in the REPEAT. They are: 
+1. Requirements management groups.
+2. Issuers.
+3. Requirements team.
+4. Construction teams.
+5. Test teams.
+6. Expert.
+Each unique requirement has a life cycle through specific states, and REPEAT includes several phases, the first phase is elicitation phase, there are two main things in this phase, they are collection and classification, the collection is made by an issuer in the web from and upload for storing in RQDB, and the classification is through RQMG by assigning it to an expert. The second phase is selection phase, there are also two main things in this phase, they are select requirements and specify them. The third phase is change management, construction, verification and conclusion. The last phase is conclusion, the author point out conclusion about the requirement management in the current phase.
+The main contribution of this article:
+1. The REPEAT process almost decide the normal process.
+2. From this paper, we know that building a good requirement is a strict and long process, every step is important.
+3. REPEAT process consider lots of perspective during the requirements engineering, we can use REPEAT to deal with different requirements management.
+The shortcoming of this article: 
+1. The limitation of REPEAT process is not very clear, we need to know the limitation of REPEAT process.
+2. The description for each process is not complete enough, We can not operate each step completely.
+3. As a methods in 1998, I think it's a little out of date for today's software industry.
+
+
+-------
+
+
+### Reference 
+[1] Visualizing, Analyzing and Managing the Scope of Software Releases in Large-Scale Requirements Engineering
+
+[2] Wiegers K, Beatty J. Software requirements[M]. Pearson Education, 2013.
+
+[3] Robertson S, Robertson J. Mastering the requirements process: Getting requirements right[M]. Addison-wesley, 2012.
+
+[4] Kotonya G, Sommerville I. Requirements engineering: processes and techniques[M]. Wiley Publishing, 1998.
+
 

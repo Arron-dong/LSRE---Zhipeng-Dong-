@@ -1,1 +1,174 @@
+# Seminar 3 
+
+### Question 1: About Boston Matrix
+
+Boston Matrix is a chart, the purpose of the Boston Matrix are:
+ 1. It can help organizations analyze their business performance.
+ 2. It can help company allocate resources to be more reasonable.
+ 3. It can help companies analyze the market.
+ 4. It can help companies manage products, strategic and portfolio analysis.
+Boston Matrix is actually a two by two matrix, the horizontal axis is the relative market share and the vertical axis is the market growth rate. This chart is made up of four regional sections. They are cash cows, dogs, question marks and stars. They are four different professional works.The cash cows - Cash Cows refers to businesses that have high market share and low expected growth. Therefore, this kind of professional work usually brings more cash income to the company than the maintenance professional work. They are generally considered to be stable and boring, because of the market is mature, so all companies want to have this kind of professional work. Companies only need to maintain the most basic expenses, they do not need to increase investment for this kind of professional work.
+The dogs - Dogs refers to businesses that have low market share and low expected growth. This kind of professional work usually could only maintain a balance of payments. While this kind of professional work may actually assist other professional works, it is useless for the company from an accounting point of view, because this kind of professional work is fail to generate significant revenue for the company. Therefore, from this point of view, this kind of professional work should be sold.
+The Question Marks - Question Marks refers to businesses that have high-growth market but low market share. Because this kind of professional work is suitable for high-growth market, so it requires a lot of investment. But because the market share is low, this kind of professional work is failed to bring considerable revenue for the company, the result is large cash outlay will outcome. This kind of professional work is very unstable, and there are a lot of risks. Therefore, before investing in this kind of professional work, a carefully analyzing is very important, we need to determine whether the investment is worth or not.
+The Stars - Stars refers to businesses that have high market share and high expected growth. This kind of professional work is expected to become the company's "cash cow" area of business. While these businesses will need to invest more money to maintain market leadership, these investments are worthwhile if the goals achieved. When the market become mature, the "Star" area of business will become a "cash cow" area of business.
+When an industry and its market matured, all companies in the industry's business will become a "cash cow" or "dog" area of business. Most of the business life cycle is from the "question mark" area, and then moved to the "star" area. When the market slows down, it moves to the "cash cow" area. Eventually it will move to the "dog" area, and complete a life cycle.
+
+
+-------
+
+
+### Question 2: How do you connect your requirements to your architecture?
+
+In software engineering, requirements are always connect the architecture. What is requirements in software engineering? Requirements is the description of a software to be developed. What is software architecture? It is the fundamental structure of a software. In the real development phase, different requirements will influence the architecture that designers select or develop.[1] In my opinion, when we develop a software product, at first, we need to understand the requirements, and the to make sure the architecture, if the architecture can not satified the requirements, it is not a good architecture. And if the requiremnets changed, the architecture will be changed. Requirements impact the architecture.
+
+
+-------
+
+
+### Question 3: Can you connect all requirements directly? What do you do if you cannot?
+
+No, I cannot. Requirements will not come up at same time. The requirements capture is an abstract process. because different requirements will come from different abstraction levels.
+How to connect all requirements? At first, make a clear requirements management document, and update requirements fix a date. Then add details to make requirements easier understand.
+
+
+-------
+
+
+### Article “Towards a reference framework for software product management”
+
+In this paper, The author presents a reference framework for software product management.
+This reference framwork involves many aspects, such like portfolio management, product roadmapping, release planning and requirements management. And the stakeholders and their relations has been identified in this paper.
+From this paper, we know the stakeholders can be divided into internal stakeholders and external stakeholders. The internal stakeholders including company board, the consultants of the services department, support stands and sales and marketing staffs. The external stakeholders including potential customers, competitors and analysts.
+Portfolio management: portfolio management include four main processes, they are market trend identification, product line identification, product lifecycle management and partnering and contracting, we through market trend identification to find our partners, then we will make a decision to determine the product lifecycle. We also need to set up a clear product line management in this area.
+Product roadmapping: Roadmap is a long-term planning, also known as road planning. A roadmap is a structured representation of objects over a period of time to display a development plan. Road maps are used in business for strategic planning and communications. The roadmapping is such like product line management, the roadmapping has different use in different industries, the main use in software industry is planning purposes.
+Requirements management: Requirements management is very important in product software companies[2]. The requirements management process including requirements estimating, identifying, changing and organizing the requirements from different stakeholders. Analyzing requirements is the most important thing when we doing requirements management. Because we need to ensure that we truly understand these requirements, if we misunderstand these requirements, the whole product will be failed.
+Release planning: The release planning is start with the product requirements prioritization. At the beginning of the project, we have already set up a series of requirements for the first release, and some unimportant requirements will be  published on next release. The release planning probable using integer linear programming to analyze the stakeholders' feedback[3].
+The reference framwork process is such like this style: project -> requirements management -> portfolio --> SPL -> Roadmapping -> requirements management -> release planning.
+The main contribution of this article: 
+1. This paper proposes a visual reference framework for software product management. 2. This paper provided an overview of software product management. 
+3. This article describes the importance of software product management.
+The shortcoming of this article: 
+1. The description of the visual reference framework for software product management is not detailed enough, so we do not understand how to use this framwork in the real life. 
+2. There is no real case to prove whether it is really effective.
+
+
+-------
+
+
+### Article “Market-Driven Requirements Engineering for Software Products” 
+ 
+As market-driven development becomes more common, there are many challenges have emerged in the market-driven development environment. In this paper, the author through an interview to present the current practices and the challenges in market-driven requirement engineering. The MDRE have many typical characteristics, the author through six phase show the MDRE process.
+1. Elicitation phase. Using interview, survey, face to face meeting to get the requirements. Most of requirements are gathered from internal sources. 
+2. Documentation phase. We not only need to record the requirements, but also need to record where the requirements come from. And we need to use natural language to record requirements.
+3. Analysis phase. Through group-discussions method to get different points.
+4. Validation phase. The validation phase is a difficult and also important part in the MDRE process. Different companies will have different test method, techniques, or teams. No matter what method, as long as the company can test success is a good way.
+5. Release planning phase. In MDRE, different companies have different method to make the release planning. An important point is we need to make sure the requirements relate to each other.
+6. Requirement management phase. XP story cards, TOP 10 list method are all effect requirement management method to manage and store requirements.
+The main contribution of this article:
+1. This article introduce the MDRE, from this article, we know that the characteristics of  MDRE differs from customer-specific requirements engineering.
+2. In this paper, the key elements of MDRE are presented and the main challenges have been described.
+The shortcoming of this article: 
+1. The interview are mostly partly different, I think the results of the interview are not necessarily reliable.
+2. In this article, the author want to just divide the requirements into Alfa and Beta which I think is too broadly.
+3. The evaluation of value of requirements is very complex, many people want the evaluation of demand value is simple.
+
+
+-------
+
+
+### D. Leffingwell “Scaled Agile Framework” http://www.scaledagileframework.com/
+
+From the page of website, we know that the scaled agile framework is a framework for developing as an agile team at enterprise scale. And we known that there are many benefits of scaled agile framework and there are nine principles of safe is introduced in this paper.
+The benefits:
+1. Increase the productivity and quality of the project.
+2. Reduce the development time.
+3. Increase team members’ satisfaction.
+The nine principles:
+1. Using an economic view.
+2. Thinking to be comprehensive.
+3. Attention to variability.
+4. High-efficient learning cycles.
+5. Base milestones on working system objective evaluation. 
+6. Limited WIP.
+7. From visualize perspective.
+8. Optimize the decision-making.
+9. Employee motivation.
+The main contribution of this article:
+The SAFe has many good points:
+1. It is free for users to use.
+2. Lots of benefits.
+3. Lots of real projects has been detailed description of scaled agile framework.
+The shortcoming of this article: 
+1. I think this article on the scaled agile description is not very detailed, for beginners, they need to clearly know what is scaled agile.
+2. As we known that, a good framework need to help improve the quality, productivity, and employee satisfaction, in this paper, I can not clearly judge it if it is a good framwork. 
+
+
+-------
+
+ 
+### Article “Are You Biting Off More Than You Can Chew? A Case Study on Causes and Effects of Overscoping in Large-Scale Software Engineering”
+ 
+This paper based on a hypothesis, use semi-structured interviews method to investigate nine practitioners at a large, market-driven software company. And used questionnaire method to validate the results from the interviews. Through analyzing the result of interviews and questionnaire, we known the reason of overscoping is mainly caused. Because of operating in a fast- moving market driven domain and weak awareness of overall goals may lead to overscoping.
+It is not very easy for software product managers to select features according to the highest return of investment in market driven requirements engineering. The goal of this paper was explore the influence of factors involved in overscoping of projects. In order to achieve this goal, this paper proposed three research questions. They are: 1. what causes overscoping? 2. what are the resulting effects of overscoping? 3. how may agile RE practices impact the causes and effects of overscoping?
+Then the author used case study method for some of the data gathering. It is a qualitative research method. Next, the author through analyzing these data and interview results got conclusion. There are eight causes could cause overscoping, c1 is continuous requirement inflow, c2 is no overview of software resource availability, c3 is low DT involvemnet in early phase, c4 is requirements not agreed with DTs, c5 is detailed requirement spee produced upfront, c6 is unclear vision of overrall goal, c7 is weak process adherance, c8 is scope and deadline dictated. These eight causes will answer the research question 1. For research question 2, we get the response: 1. Many requirement changes after the project scope is set. 2. Quality issues, the quality of software was negatively affected by overscoping. 3. Delays, customers' requirements changed will cause project delaied. 4.  The customers' expectations are not always met. 5. Communication gaps, distrust and unreliable will produce communication gaps. 6. Challenge to keep the SRS updated, because of overscoping, a high workload and many later requirements changed, it will increase the challenge of keeping the SRS updated. For research question 3, we known that there is less descoping than the previous phase based process.
+The main contribution of this article:
+1. This article provides a detailed picture of factors involved in overscoping and confirms.
+2. We know the main reasons for overscoping, it is dealing with fast moving market driven domain and manage inflow of requirements. We known a situation of overscoping may cause even more overscoping, so we need to pay more attention on the overscoping.
+The shortcoming of this article: 
+1. This article did not talk more about how the agile RE practices affect overscoping. 
+2. The research object of this paper is too single, so the generalisability of findings are not strengthen.
+
+
+-------
+
+
+### Article “Factors Affecting Decision Outcome and Lead-time in Large-Scale Requirements Engineering”
+
+In order to create a meaningful product, the product must meet the target market requirements. As the market and customer requirements change is frequently, we must make the appropriate decision as soon as possible. The purpose of this article is to figure out which characteristics of change requests may influence the decision. The author use two case studies to find out the result. The first case, the author through analyze three kinds of characteristics to find out whether these factors will influence the decision. The three characteristics are number of products, release number, and type of customer. The second case, the author through a survey on 50 respondents to find out the factors which influence the decision.
+As the result the study can present:
+1. The number of products will influence the lead time, more products will cost more lead time.
+2. There is no relationship between the number of release and lead time.
+3. When we make a decision for large customers, the lead time will be shorter.
+4. Change requests will reduce lead time.
+5. Rejecting a decision cost less time than accepting a decision.
+6. If the key customers change requests, it will be more likely to be accepted.
+The main contribution of this article:
+1. I agree with the point ” an important customer plays a significant role in decision ”, because more important the customer is, the higher he will influence.[4]
+2. In this paper, from the case study, I know that the number of release will not influence the lead time and decision. I think it is very important for me.
+The shortcoming of this article: 
+1. Only use one case company to show the SPL method is not enough, because only one case, can not make the conclusion be convincing.
+2. In this paper, I can not find the description of large customer, we do not know what is a large customer, so I think the author need to add a description about large customer.
+
+
+-------
+
+
+### Article “An industrial survey of requirements interdependencies in software product release planning”, in Proceedings of the fifth IEEE International Symposium on Requirements Engineering, 2001.
+
+In this paper, The author proposed the requirements are not singular, requirements may depend on each other in the real world. Because of this reason, select requirements for the next release of a sofrware system is very difficult. At first, this paper examines the interdependence of 20 requirements for five different products in five different companies. Then this paper presents the research results: 1. Most requirements are depend on each other. 2. Only a few requirements are singular. 3. Bespoke development products will include much more functionality-related dependencies.
+This paper focus on requirements interactions from a release planning perspective. In this paper, the author select five different cases to achieve the survey. The first case is a small company with one product and services associated with it. The product is mature, and the staffs have a high experienced in requirements management. Case two is a medium sized company with three different product areas. The product is also mature, and the requirement manager has a high experienced in requirements management. Case three is a large company, the product is mature, and the requirement manager has a high experienced in requirements management. Case four is a software engineering research institute, the requirement manager has a high experienced in requirements management. Case five is a medium sized company, try to achieve specific customers' requirements, and the requirement manager has a high experienced in requirements management.
+For each case, the author used same method to collect the data to find different types of interdependencies. And then analysis these data to get results.
+From this paper, we known the release planning is a very important part of market-driven software development process. The release planning can decide what should be delivered when. In an ideal situation, where there are no interdependencies between requirements, we could select a number of priority requirements, depending on the release planning. But in fact, only about 20% of the requirements are singular, so in order to dealing with requirements interdependencies, a simple visualization technique has been published. This visualization technique could identify of both singular requirements, and highly dependent requirements.
+At last, the author compared the issue of interdependencies among requirements as well as between partitions of a set of requirements.
+The main contribution of this article: 
+1. This paper proposed a classification scheme for interdependen, such like: AND, REQUIRES, ICOST, CVALUE. 
+2. This paper proposed a simple visualization technique, it is very useful for supporting reasons about possible of partitioning a set of requirements. 
+3. From this paper, we known that considering requirements interdependencies is very important in software product release planning.
+The shortcoming of this article: 
+1. This paper does not explain, how to deal with the collected data and the reason of why select these data. 
+2. In this paper, the author did not related the issue of requirements interdependencies to that of dependencies between requirements and the code base.
+
+
+-------
+
+
+### Extra Reference:
+
+[1] Nuseibeh B. Weaving together requirements and architectures[J]. Computer, 2001, 34(3): 115-119.
+
+[2] P. Carlshamre and B. Regnell, "Requirements Lifecycle Management and Release Planning in Market-Driven Requirements Engineering Processes", DEXA’00, 2000, p. 961.
+
+[3] M. van den Akker, S. Brinkkemper, G. van Diepen, and J. Versendaal, “Flexible Release Planning Using Integer Linear Programming”, REFSQ'05, 2005, Porto, Portugal, Essener Informatik Beitrage, Band 10.
+
+[4] De La Vara J L, Hoyos L, Collado E, et al. Towards customer-based requirements engineering practices[C]//2012 Second IEEE International Workshop on Empirical Requirements Engineering (EmpiRE). IEEE, 2012: 37-40.
 
